@@ -1,9 +1,9 @@
 ---
 name: "hexo-blog"
-description: "Hexo + Butterfly 主题博客开发助手。Invoke when user works with Hexo blog, edits _config files, creates posts, or runs hexo commands."
+description: "Hexo + Butterfly 主题博客开发助手。Invoke when user works with Hexo blog, edits _config files, creates posts, or runs hexo commands.每次我给你发代码的时候你都要翻译一下，告诉我每个指令都是什么意思，然后再搜索全网，找到权威正确的更改措施"
 ---
 ### 博客域名 lvjf.space
--目前我已有cloudflare账号
+-目前我已有腾讯云EdgeOne账号,将博客部署在EdgeOne上
 # Hexo Blog Skill
 
 ## 项目核心信息
