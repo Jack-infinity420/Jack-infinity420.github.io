@@ -509,9 +509,6 @@ search:
       enable: false
       # Number of search results per page
       hitsPerPage: 8
-    CDN:
-      internal_provider: local
-      third_party_provider: local
   # Docsearch
   # https://docsearch.algolia.com/
   docsearch:
