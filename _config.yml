@@ -103,6 +103,13 @@ search:
   field: post
   content: true
 
+# Hexo Blog Encrypt
+## Docs: https://github.com/D0n9X1n/hexo-blog-encrypt
+encrypt:
+  enable: true
+  default_abstract: 这是一篇被保护的文章，需要输入密码才能查看。
+  default_message: 请询问作者解锁文章。
+
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:

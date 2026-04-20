@@ -10,7 +10,7 @@ author: Jack
 
 
 
-开始打开靶机时，发现显示503 Service Temporarily Unavailable，意思是服务暂时不可用。
+打开靶机时，发现显示503 Service Temporarily Unavailable，意为服务暂时不可用。
 5XX状态码表示服务端故障，例如：
 
 - 500 Internal Server Error——服务器内部错误
