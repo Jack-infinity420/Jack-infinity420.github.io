@@ -2,7 +2,10 @@
 title: [ACTF2020 新生赛 Exec1 BUUCTF]
 date: 2026-04-11 22:33:31
 tags: [每天一道CTF,web]
-categories: CTF
+categories:
+  - tech
+  - CTF
+description: 通过一道 ACTF 新生赛题目，深入理解 Linux 命令注入的原理与利用技巧
 author: Jack
 ---
 

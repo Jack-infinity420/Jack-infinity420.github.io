@@ -22,11 +22,10 @@ menu:
   文章: /archives/ || fas fa-archive
   标签: /tags/ || fas fa-tags
   分类: /categories/ || fas fa-folder
-  友链: /links/ || fas fa-link
-  # 技术理工分区
-  格物致知: /categories/tech/ || fas fa-microscope
   # 文史哲分区
   文以载道: /categories/humanities/ || fas fa-book
+  # 技术理工分区
+  格物致知: /categories/tech/ || fas fa-microscope
 # --------------------------------------
 # Code Blocks Settings
 # --------------------------------------
@@ -194,7 +193,7 @@ subtitle:
 # 5: Info displayed on the cover
 # 6: Masonry layout - Cover on top, info on the bottom
 # 7: Masonry layout - Info displayed on the cover
-index_layout: 3
+index_layout: 1
 
 # Display the article introduction on homepage
 # 1: description
@@ -202,7 +201,7 @@ index_layout: 3
 # 3: auto_excerpt (default)
 # false: do not show the article introduction
 index_post_content:
-  method: 3
+  method: 2
   # If you set method to 2 or 3, the length need to config
   length: 500
 
@@ -444,7 +443,7 @@ copy:
   enable: true
   # Add the copyright information after copied content
   copyright:
-    enable: false
+    enable: true
     limit_count: 150
 
 # Need to install the hexo-wordcount plugin
@@ -939,7 +938,7 @@ clickShowText:
 # https://github.com/francoischalifour/medium-zoom
 # https://fancyapps.com/fancybox/
 # Leave it empty if you don't need lightbox
-lightbox:
+lightbox: medium_zoom
 
 # --------------------------------------
 # Tag Plugins settings
@@ -1014,7 +1013,7 @@ note:
 
 # https://github.com/MoOx/pjax
 pjax:
-  enable: false
+  enable: true
   # Exclude the specified pages from pjax, such as '/music/'
   exclude:
     # - /xxxxxx/
@@ -1043,7 +1042,7 @@ instantpage: true
 lazyload:
   enable: true
   # Use browser's native lazyload instead of vanilla-lazyload
-  native: false
+  native: true
   # Specify the field to use lazyload (site or post)
   field: site
   placeholder:
