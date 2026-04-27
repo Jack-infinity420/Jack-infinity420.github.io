@@ -89,8 +89,8 @@ category_img:
 # Format:
 #  - category name: xxxxx
 category_per_img:
-  - tech: /images/tech_banner.jpg
-  - humanities: /images/humanities_banner.jpg
+  tech: /images/tech_banner.jpg
+  humanities: /images/humanities_banner.jpg
 
 # The background image of footer
 footer_img: true
@@ -1053,11 +1053,7 @@ lazyload:
 # ---------------
 pwa:
   enable: true
-  manifest:
-  apple_touch_icon:
-  favicon_32_32:
-  favicon_16_16:
-  mask_icon:
+  manifest: /manifest.json
 
 # Open graph meta tags
 # https://hexo.io/docs/helpers#open-graph

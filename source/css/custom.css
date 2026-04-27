@@ -7,6 +7,10 @@
   vertical-align: middle;
 }
 
+#nav #blog-info .site-name {
+  vertical-align: middle;
+}
+
 .avatar-img picture,
 .avatar-img picture img {
   display: inline-block;
