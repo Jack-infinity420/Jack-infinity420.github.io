@@ -1084,8 +1084,17 @@ css_prefix: true
 inject:
   head:
     - <link rel="stylesheet" href="/css/custom.css">
+    - <link rel="stylesheet" href="/css/weather.css">
   bottom:
-    # - <script src="xxxx"></script>
+    - <script src="/js/weather-config.js"></script>
+    - <script src="/js/geo.js"></script>
+    - <script src="/js/weather.js"></script>
+    - <script src="/js/poetry.js"></script>
+    - <script src="/js/daynight.js"></script>
+    - <script src="/js/weather-particles.js"></script>
+    - <script src="/js/weather-card.js"></script>
+    - <script src="/js/weather-panel.js"></script>
+    - <script src="/js/weather-init.js"></script>
 
 # CDN Settings - Optimized for China CDN
 # Don't modify the following settings unless you know how they work
