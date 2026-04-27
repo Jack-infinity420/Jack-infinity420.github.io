@@ -1,10 +1,12 @@
 ---
 title: 建站志
-date: 2026-03-27 22:26:26
-tags: [建站志]
-description: 给时光以生命，给岁月以文明——记录的意义是什么？
+tags:
+  - 建站志
+description: 因存在而记录
 categories:
-  - tech
+  - humanities
+abbrlink: f7d0875d
+date: 2026-03-27 22:26:26
 ---
 
 > Earth is but a cradle; the cosmos knows no end.

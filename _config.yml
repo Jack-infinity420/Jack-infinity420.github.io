@@ -14,7 +14,7 @@ timezone: ''
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
 url: https://lvjf.space
-permalink: :year/:month/:day/:title/
+permalink: posts/:abbrlink.html
 permalink_defaults:
 pretty_urls:
   trailing_index: true # Set to false to remove trailing 'index.html' from permalinks
@@ -103,6 +103,38 @@ search:
   field: post
   content: true
 
+# Sitemap Generator
+## https://github.com/hexojs/hexo-generator-sitemap
+sitemap:
+  path: sitemap.xml
+  template:
+  template_txt:
+  template_xml:
+  rel: true
+  tags: true
+  categories: true
+
+# RSS/Atom Feed
+## https://github.com/hexojs/hexo-generator-feed
+feed:
+  enable: true
+  type: atom
+  path: atom.xml
+  limit: 20
+  content: true
+  content_limit: 140
+  order_by: -date
+  autodiscovery: true
+
+# External link nofollow
+## https://github.com/hexojs/hexo-filter-nofollow
+nofollow:
+  enable: true
+  field: site
+  exclude:
+    - 'lvjf.space'
+    - 'jack-infinity420.github.io'
+
 # Hexo Blog Encrypt
 ## Docs: https://github.com/D0n9X1n/hexo-blog-encrypt
 encrypt:
@@ -116,3 +148,45 @@ deploy:
   type: git
   repo: git@github.com:Jack-infinity420/jack-infinity420.github.io.git
   branch: main
+
+# Baidu URL Submit
+## https://github.com/huiwang/hexo-baidu-url-submit
+baidu_url_submit:
+  count: 10
+  host: lvjf.space
+  token: ''  # 请替换为百度站长平台 token
+  path: baidu_urls.txt
+
+# HTML/CSS/JS Minification
+## https://github.com/rozbo/hexo-neat
+neat_enable: true
+neat_html:
+  enable: true
+  exclude:
+neat_css:
+  enable: true
+  exclude:
+    - '*.min.css'
+neat_js:
+  enable: true
+  mangle: true
+  output:
+  compress:
+    drop_console: true
+  exclude:
+    - '*.min.js'
+
+# Image Optimization (WebP + responsive)
+## https://github.com/next-theme/hexo-image-opt
+image_opt:
+  enable: true
+  quality: 80
+  sizes: [400, 800, 1280]
+  skipExisting: true
+
+# Short Permalinks
+## https://github.com/rozbo/hexo-abbrlink
+abbrlink:
+  alg: crc32
+  rep: hex
+

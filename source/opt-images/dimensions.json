@@ -1,0 +1,42 @@
+{
+  "universe": {
+    "width": 5647,
+    "height": 3770
+  },
+  "tech_banner": {
+    "width": 1920,
+    "height": 600
+  },
+  "rainbow": {
+    "width": 1706,
+    "height": 1280
+  },
+  "icon": {
+    "width": 1235,
+    "height": 1235
+  },
+  "humanities_banner": {
+    "width": 1920,
+    "height": 600
+  },
+  "hometown": {
+    "width": 1024,
+    "height": 603
+  },
+  "default_top_image_forest": {
+    "width": 3000,
+    "height": 1688
+  },
+  "404_bg": {
+    "width": 1920,
+    "height": 1080
+  },
+  "first_step": {
+    "width": 1162,
+    "height": 703
+  },
+  "navlogo": {
+    "width": 1529,
+    "height": 1520
+  }
+}
