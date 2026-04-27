@@ -1,0 +1,23 @@
+/* Fix hexo-image-opt picture element breaking nav logo & avatar */
+#nav #blog-info picture.site-icon,
+#nav #blog-info picture.site-icon img {
+  display: inline-block;
+  height: 36px;
+  width: auto;
+  vertical-align: middle;
+}
+
+.avatar-img picture,
+.avatar-img picture img {
+  display: inline-block;
+  width: 110px;
+  height: 110px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.card-info .avatar-img picture,
+.card-info .avatar-img picture img {
+  width: 110px;
+  height: 110px;
+}
