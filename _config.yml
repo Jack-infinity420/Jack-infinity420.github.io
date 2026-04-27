@@ -4,8 +4,8 @@
 
 # Site
 title: INFINITY'S BLOG
-subtitle: '技术 · 文学 · 哲思'
-description: 'Infinity 的个人博客，记录技术探索、CTF 安全研究、健身训练与人文思考'
+subtitle: 
+description: 'Infinity 的个人博客'
 keywords: 'CTF, 网络安全, 渗透测试, 健身, 文学, 哲学, 技术博客'
 author: Infinity
 language: zh-CN
